@@ -1,0 +1,26 @@
+@font-face {
+    font-family: mBroody;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/m_brody.ttf') format('truetype');
+}
+@font-face {
+    font-family: RobotoCondenced;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/RobotoCondensed-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: PTSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/PT-Sans.ttf') format('truetype');
+}
+@font-face {
+    font-family: PTSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/PT-Sans.ttf') format('truetype');
+}
+
+
