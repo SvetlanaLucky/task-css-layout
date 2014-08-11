@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>task-css-layout</title>
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <div class="watch-all-screens"><!--прозрачный фон+стрелку на фон в верхний правый угол-->
+            <p>Посмотрите все скриншоты</p>
+        </div>
+        <ul class="soc-networks-wrapper">
+            <li><a href="www.twitter.com"></a></li>
+            <li><a href="www.facebook.com"></a></li>
+            <li><a href="mailto:somebox@gmail.com"></a></li>
+            <li><a href="www.vk.com"></a></li>
+            <!--иконки псевдоэлементами ::before для li,
+            фон и рамка(тень) одинаковые, использовать :nth-child() для установки кастомных фоновых картинок-->
+        </ul>
+        <div class="app-scary-histories"> <!--прозрачный фон+апп икон на фон левый верхний угол-->
+            <h1>Страшные истории</h1 ><!--text-transform: uppercase;-->
+            <div class="accessibility">Доступно для iPhone и iPad<div> <!--линии слева и справа при пом ::before ::after-->
+            <p>Хотите испытать свои нервы на прочность?</p>
+        </div>
+    </header>
+    <section class="download">
+        <p>Загрузите полную версию</p>
+        <button class="full-version"></button>
+        <div class="or">Или<div> <!--линии слева и справа при пом ::before ::after-->
+        <button class="light-version"></button>
+        <p>Попробуйте лайт версию</p>
+    </section>
+    <section class="screens">
+        <div class="iphone"><!--отрицательный margin чтобы позиционировать-->
+            <!--фон для дива - 1. чёрный iphone, может когда то и белый-->
+                           <!--2. скриншот экрана, в идеале спрайт всех скринов,-->
+                              <!--менять позицию при нажатии <button class="slider-previous">-->
+                              <!--или <button class="slider-next">-->
+            <button class="slider-previous"></button>
+            <!--одна и та же кнопка, но rotate3d(0, 180deg, 0); или rotateY(180deg); для :hover поменять цвет рамки и стрелки-->
+            <button class="slider-next"></button>
+            <ul class="slider-dots">
+                <li class="dot active"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+            </ul>
+        </div>
+        <div class="ipad"><!--отрицательный margin чтобы позиционировать-->
+            <!--фон для дива - 1. чёрный ipad, может когда то и белый-->
+                           <!--2. скриншот экрана, в идеале спрайт всех скринов,-->
+                           <!--менять позицию при нажатии <button class="slider-previous">-->
+                           <!--или <button class="slider-next">-->
+
+            <button class="slider-previous"></button>
+            <!--одна и та же кнопка, но rotate3d(0, 180deg, 0); для :hover поменять цвет рамки и стрелки-->
+            <button class="slider-next"></button>
+        </div>
+    </section>
+    <nav>
+        <!---webkit-box-shadow: 0 8px 6px -6px black;-->
+        <!--display: -webkit-box;-->
+        <!---webkit-box-pack: justify; заготовка и на меньшее разрешение тоже-->
+        <ul>
+            <li><figure class="updates">
+                    <img src="" alt=""/>
+                    <figcaption>Регулярные обновления</figcaption>
+                </figure>
+                <a href="#">С нами никогда не соскучишься</a></li>
+            <!--кажется что ссылкой должна быть именно фигура(((-->
+            <!--остальные элементы по аналогии-->
+        </ul>
+    </nav>
+    <section class="description">
+        <article>
+            <!--здесь есть ли смысл использовать и section и article, возможно достаточно чего то одного?-->
+            <h2>Страшные истории</h2>
+            <p>Приложение является лучшей коллекцией страшных историй. Все истории тщательно отбираются и редактируются,
+               каждая из них способна вызвать холодный пот у любого смельчака.</p>
+            <p>Читайте и пугайтесь на здоровье. Помните: в том, чтобы бояться, нет ничего плохого, ведь лучший способ
+               борьбы со страхами — это не избегать их, а встретиться с ними лицом к лицу.</p>
+            <p>Чтобы оценить все достоинтсва приложение, посмотрите <a href="#">обзор.</a></p>
+        </article>
+    </section>
+
+    <footer>
+         <!--Катастрофически не хватает времени Т.Т-->
+    </footer>
+
+</body>
+</html>
