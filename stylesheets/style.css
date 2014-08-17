@@ -2,10 +2,115 @@ header{
     width: 1000px;
     height: 450px;
     padding: 0 12px;
+    /*display: -webkit-box;*/
+    /*-webkit-box-pack: start;*/
+    /*box-sizing: border-box;*/
     border-top: 12px #33333b solid;
     background-color: #181818;
     background: -webkit-radial-gradient(50% 100%,#42444a -6px, #181818 560px);
 }
+
+.logo,
+.watch-all-screens,
+.soc-networks-wrapper{
+    display: inline-block;
+}
+
+.logo{
+    width: 263px;
+    height: 98px;
+    margin-bottom: 20px;
+    border-radius: 0 0 15px 15px;
+    background-color: #33333b;
+    background-image: url("../assets/images/catLogo.png"), url("../assets/images/textLogo.png");
+    background-repeat: no-repeat;
+    background-position: 14px 3px, 101px 28px;
+
+}
+.watch-all-screens{
+    width: 145px;
+    height: 60px;
+    margin: 40px 0 0 45px;
+    background-image: url("../assets/images/arrow.png");
+    background-repeat: no-repeat;
+    background-position: right 13px;
+    font: 28px/27px mBroody;
+    color: #626570;
+}
+.soc-networks-wrapper{
+    float: right;
+    width: 387px;
+    height: 70px;
+    margin: 42px 28px 0 0px;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+}
+
+.soc-networks-wrapper::after{
+    content: '';
+    clear:both;
+}
+
+.soc-networks-wrapper li{
+    /*float: left;*/
+    width: 60px;
+    height: 60px;
+    /*margin-right: 5px;*/
+    border-radius: 50%;
+    background-color: #33333b;
+    background-image: url("../assets/images/twitter.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    box-shadow: 1px 3px 1px 0px #202023;
+}
+.soc-networks-wrapper li:nth-child(2){
+    background-image: url("../assets/images/facebook.png");
+}
+.soc-networks-wrapper li:nth-child(3){
+    background-image: url("../assets/images/mail.png");
+}
+.soc-networks-wrapper li:nth-child(4){
+    background-image: url("../assets/images/vk.png");
+}
+
+.app-scary-histories{
+    width: 350px;
+    height: 165px;
+    margin: 55px 0 0 0px;
+    background: url('../assets/images/app-icon.png')top left no-repeat;
+}
+.app-scary-histories h1{
+    font: 44px/46px RobotoCondenced;
+    color: #d0a22b;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+.app-scary-histories .accessibility{
+    position: relative;
+    margin-top: 10px;
+    font: 17px PTSans;
+    color: #525051;
+}
+.app-scary-histories .accessibility::before,
+.app-scary-histories .accessibility::after{
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    margin: 1px 4px 1px 4px;
+    width: 60px;
+    height: 1px;
+    border-top: 1px solid #1a1b21;
+    background: #525152;
+}
+.app-scary-histories .tease{
+    font: 18px PTSans;
+    color: #bcbaab;
+    margin-top: 14px;
+}
+
+
 section{
     width: 1000px;
     height: 1150px;
@@ -20,25 +125,8 @@ footer{
     background-color: #181818;
 }
 
-.logo{
-    width: 263px;
-    height: 98px;
-    border-radius: 0 0 15px 15px;
-    /*box-sizing: border-box;*/
-    background-color: #33333b;
-    background-image: url("../assets/images/catLogo.png"), url("../assets/images/textLogo.png");
-    background-repeat: no-repeat;
-    background-position: 10px 10px, 100px 30px;
 
-}
 
-.soc-icon{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #33333b;
-    box-shadow: 0px 3px 5px 5px #202023;
-}
 
 nav {
     width: 100px;
