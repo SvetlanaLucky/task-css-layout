@@ -7,7 +7,7 @@ header{
     /*box-sizing: border-box;*/
     border-top: 12px #33333b solid;
     background-color: #181818;
-    background: -webkit-radial-gradient(50% 100%,#42444a -6px, #181818 560px);
+    background: -webkit-radial-gradient(57% 72%,#646568 -3px, #181818 551px);
 }
 
 .logo,
@@ -41,7 +41,7 @@ header{
     float: right;
     width: 387px;
     height: 70px;
-    margin: 42px 28px 0 0px;
+    margin: 42px 28px 0 0;
     display: -webkit-box;
     -webkit-box-pack: justify;
 }
@@ -111,13 +111,51 @@ header{
 }
 
 
+.download{
+    width: 240px;
+    height: 310px;
+}
+
+.full-version,
+.light-version{
+    width: 235px;
+    height: 70px;
+    border: 2px solid;
+    border-radius: 10px;
+    font: 34px MyriadProSemibold;
+}
+.full-version{
+    border-color: #edb47a;
+    background:  -webkit-linear-gradient(top, #b48a13 0%, #e8d97d 100%);
+    box-shadow: 0 3px 2px -1px #9a7920;
+}
+.light-version{
+    border-color: #d0cbbd;
+    background:  -webkit-linear-gradient(top, #999486 0%, #c8c4bc 100%);
+    box-shadow: 0 3px 2px -1px #968d73;
+}
+
+.btn-content-wrapper{
+    width: 100%;
+    height: 100%;
+    background: #b58c14;
+    -webkit-mask: url("../assets/images/download-btn-bg.png") no-repeat;
+    -webkit-mask-size: 28px 50px;
+}
+
 section{
     width: 1000px;
     height: 1150px;
     padding: 0 12px;
     /*background: red;*/
 }
-
+nav {
+    width: 100px;
+    height: 50px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
 footer{
     width: 1000px;
     height: 260px;
@@ -126,12 +164,3 @@ footer{
 }
 
 
-
-
-nav {
-    width: 100px;
-    height: 50px;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-    -moz-box-shadow: 0 8px 6px -6px black;
-    box-shadow: 0 8px 6px -6px black;
-}
