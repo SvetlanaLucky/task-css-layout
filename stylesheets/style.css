@@ -35,6 +35,7 @@ header{
     background-repeat: no-repeat;
     background-position: right 13px;
     font: 28px/27px mBroody;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
     color: #626570;
 }
 .soc-networks-wrapper{
@@ -76,7 +77,7 @@ header{
 .app-scary-histories{
     width: 350px;
     height: 165px;
-    margin: 55px 0 0 0px;
+    margin: 55px 0 0 0;
     background: url('../assets/images/app-icon.png')top left no-repeat;
 }
 .app-scary-histories h1{
@@ -180,6 +181,23 @@ header{
 .light-version:hover span{
     color: #b58c14;
 }
+.or{
+    font: 17px mBroody;
+    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); */
+}
+.or::before,
+.or::after{
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    margin: -2px 6px 1px 6px;
+    width: 95px;
+    height: 1px;
+    background: #d7d7d7;
+}
+
+
 
 section{
     width: 1000px;
@@ -188,13 +206,59 @@ section{
     /*background: red;*/
 }
 
+
+
+
+
+
+
 .iphone{
     width: 230px;
-    height: 485px;
+    height: 520px;
+    position: relative;
+    /*display: -webkit-box;*/
+    /*-webkit-box-align: end;*/
+    box-sizing: border-box;
+    padding: 0 45px;
+    background-color: lightgreen;
     background-image: url("../assets/images/iPhoneContent.jpg"), url("../assets/images/iPhoneFrame.jpg");
     background-repeat: no-repeat;
-    background-position: center, center;
+    background-position: center 70px, center top;
 }
+.slider-previous,
+.slider-next{
+    width: 36px;
+    height: 36px;
+    margin-top: 430px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 18px;
+    border: 2px solid #403f3f;
+    background-color: #2b2b29;
+    background-image: url("../assets/images/sliderArrowLeft.png");
+    background-repeat: no-repeat;
+    background-position: 9px 7px;
+}
+.slider-next{
+    -webkit-transform: rotateY(180deg);
+    margin-left: 64px;
+}
+.slider-dots{
+    width: 150px;
+    height: 40px;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #85837d;
+    float: left;
+    margin: 30px 7px;
+}
+.dot.active{
+    background-color: #33333b;
+}
+
 .ipad{
 
 }

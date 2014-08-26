@@ -4,7 +4,7 @@
     <list default="true" id="29a2d78e-ea13-4406-b432-424e559ccab1" name="Default" comment="" />
     <ignored path="task-css-layout.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/style.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409011291682" ignored="false" />
+    <file path="/style.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409014866633" ignored="false" />
     <file path="/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409008857799" ignored="false" />
     <file path="/dummy.xml" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1408425403845" ignored="false" />
     <file path="D:/examp/Новая папка/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1407667573040" ignored="false" />
@@ -35,19 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="17" selection-start="1993" selection-end="1993" vertical-scroll-proportion="0.51792115">
+            <state line="47" column="37" selection-start="1717" selection-end="1723" vertical-scroll-proportion="-5.8846154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="0" selection-start="4545" selection-end="4545" vertical-scroll-proportion="0.0">
+            <state line="234" column="0" selection-start="5191" selection-end="5191" vertical-scroll-proportion="0.31658292">
               <folding />
             </state>
           </provider>
@@ -75,8 +75,8 @@
         <option value="$PROJECT_DIR$/stylesheets/canvas.js" />
         <option value="$PROJECT_DIR$/stylesheets/reset.css" />
         <option value="$PROJECT_DIR$/stylesheets/fonts.css" />
-        <option value="$PROJECT_DIR$/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/stylesheets/style.css" />
       </list>
     </option>
   </component>
@@ -389,16 +389,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="0" selection-start="4545" selection-end="4545" vertical-scroll-proportion="0.0">
+        <state line="47" column="37" selection-start="1717" selection-end="1723" vertical-scroll-proportion="-5.8846154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="17" selection-start="1993" selection-end="1993" vertical-scroll-proportion="0.51792115">
+        <state line="234" column="0" selection-start="5191" selection-end="5191" vertical-scroll-proportion="0.31658292">
           <folding />
         </state>
       </provider>
