@@ -4,7 +4,7 @@ header{
     padding: 0 12px;
     /*display: -webkit-box;*/
     /*-webkit-box-pack: start;*/
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     border-top: 12px #33333b solid;
     background-color: #181818;
     background: -webkit-radial-gradient(57% 72%,#646568 -3px, #181818 551px);
@@ -114,33 +114,71 @@ header{
 .download{
     width: 240px;
     height: 310px;
+    margin-top: 40px;
+    font: 18px/30px PTSans;
+    font-weight: bold;
+    color:#9b9488;
+    text-transform: uppercase;
+    text-align: center;
 }
-
 .full-version,
 .light-version{
     width: 235px;
     height: 70px;
+    margin: 10px 0 15px 0;
+    padding: 0 10px;
+    text-align: left;
     border: 2px solid;
     border-radius: 10px;
-    font: 34px MyriadProSemibold;
+    font: 34px/20px MyriadPro;
+    font-weight: 600;
+    outline: none;
+}
+.full-version span:nth-child(2),
+.light-version span:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
 }
 .full-version{
     border-color: #edb47a;
     background:  -webkit-linear-gradient(top, #b48a13 0%, #e8d97d 100%);
     box-shadow: 0 3px 2px -1px #9a7920;
+    color: #b58c14;
 }
 .light-version{
     border-color: #d0cbbd;
     background:  -webkit-linear-gradient(top, #999486 0%, #c8c4bc 100%);
     box-shadow: 0 3px 2px -1px #968d73;
+    color: #9b9488;
 }
-
 .btn-content-wrapper{
-    width: 100%;
-    height: 100%;
+    width: 28px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 6px;
     background: #b58c14;
     -webkit-mask: url("../assets/images/download-btn-bg.png") no-repeat;
     -webkit-mask-size: 28px 50px;
+}
+.light-version .btn-content-wrapper{
+    background: #9b9488;
+}
+
+.full-version:hover .btn-content-wrapper{
+    background: #9b9488;
+}
+.full-version:hover span{
+    color: #9b9488;
+}
+
+.light-version:hover .btn-content-wrapper{
+    background: #b58c14;
+}
+.light-version:hover span{
+    color: #b58c14;
 }
 
 section{
@@ -149,6 +187,18 @@ section{
     padding: 0 12px;
     /*background: red;*/
 }
+
+.iphone{
+    width: 230px;
+    height: 485px;
+    background-image: url("../assets/images/iPhoneContent.jpg"), url("../assets/images/iPhoneFrame.jpg");
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+.ipad{
+
+}
+
 nav {
     width: 100px;
     height: 50px;

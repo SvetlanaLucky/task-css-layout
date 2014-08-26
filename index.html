@@ -26,24 +26,25 @@
         </div>
     </header>
     <section class="download">
-        <p>Загрузите полную версию</p>
+        <p>Загрузите<br/>полную версию</p>
         <button class="full-version">
-            <div class="btn-content-wrapper">
-
-            </div>
+            <span class="btn-content-wrapper"></span>
+            <span>Загрузить с</span><br/>
+            <span>App Store</span>
         </button>
-        <div class="or">Или<div> <!--линии слева и справа при пом ::before ::after-->
-        <button class="light-version"></button>
+        <div class="or">Или</div> <!--линии слева и справа при пом ::before ::after-->
+        <button class="light-version">
+            <span class="btn-content-wrapper"></span>
+            <span>Загрузить с</span><br/>
+            <span>App Store</span>
+        </button>
         <p>Попробуйте лайт версию</p>
     </section>
     <section class="screens">
-        <div class="iphone"><!--отрицательный margin чтобы позиционировать-->
-            <!--фон для дива - 1. чёрный iphone, может когда то и белый-->
-                           <!--2. скриншот экрана, в идеале спрайт всех скринов,-->
-                              <!--менять позицию при нажатии <button class="slider-previous">-->
-                              <!--или <button class="slider-next">-->
+        <div class="iphone">
+
             <button class="slider-previous"></button>
-            <!--одна и та же кнопка, но rotate3d(0, 180deg, 0); или rotateY(180deg); для :hover поменять цвет рамки и стрелки-->
+
             <button class="slider-next"></button>
             <ul class="slider-dots">
                 <li class="dot active"></li>
@@ -54,21 +55,15 @@
                 <li class="dot"></li>
             </ul>
         </div>
-        <div class="ipad"><!--отрицательный margin чтобы позиционировать-->
-            <!--фон для дива - 1. чёрный ipad, может когда то и белый-->
-                           <!--2. скриншот экрана, в идеале спрайт всех скринов,-->
-                           <!--менять позицию при нажатии <button class="slider-previous">-->
-                           <!--или <button class="slider-next">-->
+        <div class="ipad">
 
             <button class="slider-previous"></button>
-            <!--одна и та же кнопка, но rotate3d(0, 180deg, 0); для :hover поменять цвет рамки и стрелки-->
             <button class="slider-next"></button>
         </div>
     </section>
     <nav>
         <!---webkit-box-shadow: 0 8px 6px -6px black;-->
-        <!--display: -webkit-box;-->
-        <!---webkit-box-pack: justify; заготовка и на меньшее разрешение тоже-->
+
         <ul>
             <li><figure class="updates">
                     <img src="" alt=""/>
