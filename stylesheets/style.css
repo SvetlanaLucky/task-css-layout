@@ -9,6 +9,7 @@ header{
     border-top: 12px #33333b solid;
     background-color: #181818;
     background: -webkit-radial-gradient(57% 72%,#646568 -3px, #181818 551px);
+    margin-bottom: -295px;
 }
 
 .logo,
@@ -44,8 +45,13 @@ header{
     height: 70px;
     margin: 35px 28px 0 0;
     /* top: 9px; */
-    display: -webkit-box;
-    -webkit-box-pack: justify;
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content:space-around;
+    align-items: justify;
+    flex-wrap: wrap;
+    /*display: -webkit-box;*/
+    /*-webkit-box-pack: justify;*/
     vertical-align: top;
 }
 
@@ -123,9 +129,9 @@ header{
 .download{
     width: 240px;
     height: 310px;
-    margin-top: 40px;
+    margin-top: 366px;
     margin-right: 60px;
-    /* margin-bottom: 51px; */
+    /* margin-bottom: 54px; */
     font: 18px/30px PTSans;
     font-weight: bold;
     color:#9b9488;
@@ -217,7 +223,8 @@ section{
 
 .screens{
     width: 670px;
-    margin: -290px 0 0 0;
+    height: 770px;
+    margin: 0px 0 0 0;
     box-sizing: border-box;
 }
 
