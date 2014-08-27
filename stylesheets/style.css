@@ -312,13 +312,26 @@ section{
 nav {
     width: 980px;
     height: 250px;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-    -moz-box-shadow: 0 8px 6px -6px black;
-    box-shadow: 0 8px 6px -6px black;
+    /*-webkit-box-shadow: 0 8px 6px -6px black;*/
+    /*-moz-box-shadow: 0 8px 6px -6px black;*/
+    /*box-shadow: 0 8px 6px -6px black;*/
+    /* box-shadow:0 1px 4px rgba(0, 0, 0, 0.3); */
     display: flex;
     justify-content: space-around;
-
+    position: relative;
 }
+    nav:after{
+        content: "";
+        position: absolute;
+        /* z-index: -1; */
+        top: 100%;
+        bottom: 0;
+        width: 100%;
+        height: 10px;
+        left: 0%;
+        right: -10%;
+        background: -webkit-radial-gradient(50% 0%, ellipse cover, rgba(00, 00, 00, 0.5), rgba(97, 97, 97, 0.0) 78%);
+    }
 footer{
     width: 1000px;
     height: 260px;
@@ -326,15 +339,61 @@ footer{
     background-color: #181818;
 }
 .nav-item{
-    width: 190px;
+    width: 195px;
     height: 190px;
     background-image: url("../assets/images/roundedArrow.png");
     background-repeat: no-repeat;
-    background-size: 28px 26px; /*можно вроде только первый параметр указывать, высоту рассчитает сам...*/
-    background-position: ;
+        background-position: 50% 0;
+    text-align: center;
 }
+.nav-item:nth-child(2){
+    background-image: url("../assets/images/vote.png");
+}
+.nav-item:nth-child(3){
+    background-image: url("../assets/images/histories.png");
+}
+.nav-item:nth-child(4){
+    background-image: url("../assets/images/moreHistories.png");
+}
+.nav-item:nth-child(5){
+    background-image: url("../assets/images/reader.png");
+}
+/*li{*/
+    /*position: relative;*/
+/*}*/
+/*ul{*/
+    /*display: flex;*/
+    /*align-items: justify;*/
+    /*flex-wrap: wrap;*/
+    /*flex-direction: row;*/
+    /*justify-content:space-around;*/
+    /*flex-wrap: wrap;*/
+    /*display: -webkit-box;*/
+    /*-webkit-box-pack: justify;*/
+    /*vertical-align: top;*/
+}
+/*nav li:before{*/
+    /*content: "";*/
+    /*width: 190px;*/
+    /*height: 190px;*/
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*left: 10px;*/
+    /*background-image: url("../assets/images/roundedArrow.png");*/
+    /*background-repeat: no-repeat;*/
+/*}*/
 h2{
-    font: 32px MyriadPro;
+    font: 32px RobotoCondenced;
     color: #525051;
+    margin-top: 70px;
+
+
+
+}
+a{
+    text-decoration: none;
+    font: 20px RobotoCondenced;
+    color: #85837d;
+
 }
 }
