@@ -4,9 +4,9 @@
     <list default="true" id="29a2d78e-ea13-4406-b432-424e559ccab1" name="Default" comment="" />
     <ignored path="task-css-layout.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/style.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409179689017" ignored="false" />
-    <file path="/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409177461301" ignored="false" />
-    <file path="/dummy.xml" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409172133421" ignored="false" />
+    <file path="/style.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409189073058" ignored="false" />
+    <file path="/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409187484077" ignored="false" />
+    <file path="/dummy.xml" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409187485284" ignored="false" />
     <file path="D:/examp/Новая папка/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1407667573040" ignored="false" />
     <file path="D:/examp/Новая папка/styles/fonts.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1407667795407" ignored="false" />
     <file path="D:/examp/Новая папка/styles/footer.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1407667857088" ignored="false" />
@@ -34,49 +34,54 @@
     <favorites_list name="task-css-layout" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="94" selection-start="3367" selection-end="3367" vertical-scroll-proportion="-11.769231">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="332" column="117" selection-start="7631" selection-end="7631" vertical-scroll-proportion="0.8202995">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="moreHistories.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/images/moreHistories.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="histories.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/images/histories.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fonts.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/fonts.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="32" selection-start="181" selection-end="196" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.33150184">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="105" column="23" selection-start="3949" selection-end="3957" vertical-scroll-proportion="0.29715303">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="378" column="1" selection-start="8218" selection-end="8218" vertical-scroll-proportion="-16.92">
+                  <folding>
+                    <marker date="1409189205623" expanded="true" signature="35:9590" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fonts.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stylesheets/fonts.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="18" selection-start="356" selection-end="362" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="428" column="15" selection-start="9422" selection-end="9422" vertical-scroll-proportion="1.9251701">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -235,7 +240,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2316879" sideWeight="0.670947" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13057324" sideWeight="0.670947" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -390,21 +395,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="181" selection-end="196" vertical-scroll-proportion="0.0">
+        <state line="13" column="18" selection-start="356" selection-end="362" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="94" selection-start="3367" selection-end="3367" vertical-scroll-proportion="-11.769231">
+        <state line="105" column="23" selection-start="3949" selection-end="3957" vertical-scroll-proportion="0.29715303">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="332" column="117" selection-start="7631" selection-end="7631" vertical-scroll-proportion="0.8202995">
+        <state line="428" column="15" selection-start="9422" selection-end="9422" vertical-scroll-proportion="1.9251701">
           <folding />
         </state>
       </provider>
