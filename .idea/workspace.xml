@@ -4,7 +4,7 @@
     <list default="true" id="29a2d78e-ea13-4406-b432-424e559ccab1" name="Default" comment="" />
     <ignored path="task-css-layout.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/style.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409688875544" ignored="false" />
+    <file path="/style.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409692118813" ignored="false" />
     <file path="/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409687932985" ignored="false" />
     <file path="/dummy.xml" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409687933970" ignored="false" />
     <file path="D:/examp/Новая папка/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1407667573040" ignored="false" />
@@ -40,7 +40,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="30" selection-start="878" selection-end="878" vertical-scroll-proportion="-2.4345238">
+                <state line="66" column="4" selection-start="2309" selection-end="2309" vertical-scroll-proportion="0.30357143">
                   <folding />
                 </state>
               </provider>
@@ -49,7 +49,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="394" column="1" selection-start="8415" selection-end="8415" vertical-scroll-proportion="0.0">
+                <state line="401" column="1" selection-start="8491" selection-end="8491" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -71,7 +71,7 @@
           <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="454" column="1" selection-start="9778" selection-end="9778" vertical-scroll-proportion="0.8603774">
+                <state line="464" column="28" selection-start="9887" selection-end="9890" vertical-scroll-proportion="0.16603774">
                   <folding />
                 </state>
               </provider>
@@ -180,7 +180,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10429937" sideWeight="0.670947" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10589172" sideWeight="0.670947" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -340,14 +340,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="878" selection-end="878" vertical-scroll-proportion="-2.4345238">
+        <state line="66" column="4" selection-start="2309" selection-end="2309" vertical-scroll-proportion="0.30357143">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="454" column="1" selection-start="9778" selection-end="9778" vertical-scroll-proportion="0.8603774">
+        <state line="464" column="28" selection-start="9887" selection-end="9890" vertical-scroll-proportion="0.16603774">
           <folding />
         </state>
       </provider>

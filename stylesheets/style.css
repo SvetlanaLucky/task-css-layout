@@ -1,4 +1,4 @@
-@media all and (min-width: 1024px) {
+/*@media all and (min-width: 1024px) {*/
 
 
 header{
@@ -302,6 +302,10 @@ nav {
     display: flex;
     justify-content: space-around;
     position: relative;
+    flex-wrap: wrap;
+
+
+
 }
 nav:after{
     content: "";
@@ -392,6 +396,8 @@ a{
 .share-link{
     width: 55px;
     height: 55px;
+    margin-left: 0px;
+    margin-right: 30px;
 }
 .shared,
 .soc-logo{
@@ -450,7 +456,30 @@ a{
     margin: 100px 0;
     float: right;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+}
+/*}*/
+
+
+@media all and (min-width: 768px)and (max-width:1023px){
+
+header,
+section,
+footer{
+    width: 688px;
+}
+
+nav{
+    width: 600px;
+    height: 460px;
+    margin: 20px auto;
+}
+
+
+.links-wrapper{
+    width: 270px;
+    height: 155px;
+    margin-top: 50px;
 }
 }
