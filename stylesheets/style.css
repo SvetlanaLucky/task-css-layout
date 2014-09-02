@@ -123,7 +123,7 @@ header{
 .download{
     width: 240px;
     height: 310px;
-    margin-top: 366px;
+    margin-top: 335px;
     margin-right: 60px;
     font: 18px/30px PTSans;
     font-weight: bold;
@@ -347,6 +347,10 @@ h1{
     color: #9a7920;
     text-align: center;
     margin-top: 41px;
+
+}
+article h1{
+    margin-bottom: 40px;
 }
 h2{
     font: 32px/32px RobotoCondenced;
@@ -354,7 +358,9 @@ h2{
     margin-top: 60px;
     margin-bottom: 15px;
 }
-p{
+
+article p,
+footer p{
     font: 22px PTSans;
     color: #525051;
     margin-bottom: 35px;
@@ -365,6 +371,13 @@ a{
     font: 20px RobotoCondenced;
     color: #85837d;
 
+}
+.feedback{
+    width: 300px;
+    height: 140px;
+    float: left;
+
+    margin-top: 50px;
 }
 .feedback a{
     display: block;
@@ -434,8 +447,10 @@ a{
 }
 .links-wrapper{
     width: 450px;
+    margin: 100px 0;
+    float: right;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 }
