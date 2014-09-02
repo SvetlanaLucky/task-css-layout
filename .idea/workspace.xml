@@ -4,9 +4,9 @@
     <list default="true" id="29a2d78e-ea13-4406-b432-424e559ccab1" name="Default" comment="" />
     <ignored path="task-css-layout.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/style.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409692118813" ignored="false" />
-    <file path="/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409687932985" ignored="false" />
-    <file path="/dummy.xml" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409687933970" ignored="false" />
+    <file path="/style.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409700835891" ignored="false" />
+    <file path="/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409700369905" ignored="false" />
+    <file path="/dummy.xml" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409700371950" ignored="false" />
     <file path="D:/examp/Новая папка/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1407667573040" ignored="false" />
     <file path="D:/examp/Новая папка/styles/fonts.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1407667795407" ignored="false" />
     <file path="D:/examp/Новая папка/styles/footer.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1407667857088" ignored="false" />
@@ -34,13 +34,13 @@
     <favorites_list name="task-css-layout" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46133333">
+    <splitter split-orientation="horizontal" split-proportion="0.5235975">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="66" column="4" selection-start="2309" selection-end="2309" vertical-scroll-proportion="0.30357143">
+                <state line="24" column="4" selection-start="852" selection-end="852" vertical-scroll-proportion="0.37103173">
                   <folding />
                 </state>
               </provider>
@@ -49,7 +49,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="401" column="1" selection-start="8491" selection-end="8491" vertical-scroll-proportion="0.0">
+                <state line="400" column="1" selection-start="8532" selection-end="8532" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -68,10 +68,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="464" column="28" selection-start="9887" selection-end="9890" vertical-scroll-proportion="0.16603774">
+                <state line="478" column="1" selection-start="10119" selection-end="10119" vertical-scroll-proportion="0.42264152">
                   <folding />
                 </state>
               </provider>
@@ -92,8 +92,8 @@
         <option value="$PROJECT_DIR$/stylesheets/canvas.js" />
         <option value="$PROJECT_DIR$/stylesheets/reset.css" />
         <option value="$PROJECT_DIR$/stylesheets/fonts.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -338,16 +338,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="4" selection-start="2309" selection-end="2309" vertical-scroll-proportion="0.30357143">
+        <state line="400" column="1" selection-start="8532" selection-end="8532" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="464" column="28" selection-start="9887" selection-end="9890" vertical-scroll-proportion="0.16603774">
+        <state line="24" column="4" selection-start="852" selection-end="852" vertical-scroll-proportion="0.37103173">
           <folding />
         </state>
       </provider>
