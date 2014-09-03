@@ -4,7 +4,7 @@
     <list default="true" id="29a2d78e-ea13-4406-b432-424e559ccab1" name="Default" comment="" />
     <ignored path="task-css-layout.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/style.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409710919575" ignored="false" />
+    <file path="/style.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409711421065" ignored="false" />
     <file path="/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409708052270" ignored="false" />
     <file path="/dummy.xml" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409705065362" ignored="false" />
     <file path="D:/examp/Новая папка/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1407667573040" ignored="false" />
@@ -49,7 +49,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="444" column="0" selection-start="9569" selection-end="9569" vertical-scroll-proportion="0.0">
+                <state line="447" column="0" selection-start="9603" selection-end="9603" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -71,7 +71,7 @@
           <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="683" column="4" selection-start="13724" selection-end="13724" vertical-scroll-proportion="0.9390681">
+                <state line="720" column="0" selection-start="14484" selection-end="14484" vertical-scroll-proportion="0.66487455">
                   <folding />
                 </state>
               </provider>
@@ -347,7 +347,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="683" column="4" selection-start="13724" selection-end="13724" vertical-scroll-proportion="0.9390681">
+        <state line="720" column="0" selection-start="14484" selection-end="14484" vertical-scroll-proportion="0.66487455">
           <folding />
         </state>
       </provider>
