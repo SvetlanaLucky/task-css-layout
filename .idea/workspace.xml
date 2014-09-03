@@ -4,9 +4,9 @@
     <list default="true" id="29a2d78e-ea13-4406-b432-424e559ccab1" name="Default" comment="" />
     <ignored path="task-css-layout.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/style.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409700835891" ignored="false" />
-    <file path="/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409700369905" ignored="false" />
-    <file path="/dummy.xml" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409700371950" ignored="false" />
+    <file path="/style.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409705916249" ignored="false" />
+    <file path="/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409705064140" ignored="false" />
+    <file path="/dummy.xml" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1409705065362" ignored="false" />
     <file path="D:/examp/Новая папка/index.html" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1407667573040" ignored="false" />
     <file path="D:/examp/Новая папка/styles/fonts.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1407667795407" ignored="false" />
     <file path="D:/examp/Новая папка/styles/footer.css" changelist="29a2d78e-ea13-4406-b432-424e559ccab1" time="1407667857088" ignored="false" />
@@ -34,13 +34,13 @@
     <favorites_list name="task-css-layout" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5235975">
+    <splitter split-orientation="horizontal" split-proportion="0.49791145">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="4" selection-start="852" selection-end="852" vertical-scroll-proportion="0.37103173">
+                <state line="45" column="15" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.60714287">
                   <folding />
                 </state>
               </provider>
@@ -49,7 +49,7 @@
           <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="400" column="1" selection-start="8532" selection-end="8532" vertical-scroll-proportion="0.0">
+                <state line="426" column="0" selection-start="8926" selection-end="8926" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -68,10 +68,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="478" column="1" selection-start="10119" selection-end="10119" vertical-scroll-proportion="0.42264152">
+                <state line="541" column="17" selection-start="11291" selection-end="11291" vertical-scroll-proportion="0.80754715">
                   <folding />
                 </state>
               </provider>
@@ -92,8 +92,8 @@
         <option value="$PROJECT_DIR$/stylesheets/canvas.js" />
         <option value="$PROJECT_DIR$/stylesheets/reset.css" />
         <option value="$PROJECT_DIR$/stylesheets/fonts.css" />
-        <option value="$PROJECT_DIR$/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/stylesheets/style.css" />
       </list>
     </option>
   </component>
@@ -180,7 +180,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10589172" sideWeight="0.670947" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.04697452" sideWeight="0.670947" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -338,16 +338,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="400" column="1" selection-start="8532" selection-end="8532" vertical-scroll-proportion="0.0">
+        <state line="45" column="15" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.60714287">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="4" selection-start="852" selection-end="852" vertical-scroll-proportion="0.37103173">
+        <state line="541" column="17" selection-start="11291" selection-end="11291" vertical-scroll-proportion="0.80754715">
           <folding />
         </state>
       </provider>

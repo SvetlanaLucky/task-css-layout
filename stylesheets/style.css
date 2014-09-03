@@ -77,17 +77,29 @@ header{
 }
 
 .app-scary-histories{
+
     width: 350px;
     height: 165px;
     margin: 85px 0 0 0;
     background: url('../assets/images/app-icon.png')top left no-repeat;
+
+    display: flex;
+    justify-content: space-around;
+    
+
+    flex-wrap: wrap;
+
+    /* margin: 50px auto; */
+
 }
 .app-scary-histories h1{
     font: 44px/46px RobotoCondenced;
     color: #d0a22b;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
-    margin-left: 100px;
+    margin-left: 95px;
+    margin-top: -3px;
+    text-align: left;
 }
 .app-scary-histories .accessibility{
     position: relative;
@@ -111,6 +123,9 @@ header{
     font: 18px PTSans;
     color: #bcbaab;
     margin-top: 14px;
+}
+.app-scary-histories .tease:last-child{
+    display: none;
 }
 
 .download,
@@ -320,6 +335,7 @@ footer{
     width: 1000px;
     height: 260px;
     padding:0 12px;
+    box-sizing: border-box;
     background-color: #181818;
 }
 .nav-item{
@@ -465,13 +481,74 @@ a{
 header,
 .content-wrapper,
 footer{
-    width: 688px;
-}
+    width: 744px;
 
+}
+header{
+    height: 390px;
+    background: -webkit-radial-gradient(95% 92%,#646568 16px, #181818 550px);
+}
 .soc-networks-wrapper{
     padding-right: 0;
     width: 350px;
 }
+.app-scary-histories{
+    margin: 50px auto;
+    width: 100%;
+    background-position: 195px 30px;
+}
+.app-scary-histories .accessibility{
+    order:1;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.app-scary-histories .accessibility:before,
+.app-scary-histories .accessibility:after{
+    width: 247px;
+}
+.app-scary-histories h1{
+    order:2;
+    width: 285px;
+    margin-left: 150px;
+}
+.app-scary-histories .tease:last-child{
+    order:3;
+    display: block;
+    text-align: center;
+}
+.app-scary-histories .tease:nth-child(3){
+    display: none;
+}
+.download{
+    display: flex;
+    width: 600px;
+    margin-left: 55px;
+    margin-bottom: 50px;
+    /* width: 100%; */
+    justify-content: space-around;
+    height: 150px;
+}
+.or:before,
+.or:after{
+    content: none;
+}
+.or{
+    padding-top: 95px;
+}
+.light-version{
+    margin-top: 70px;
+}
+.light p{
+    margin-top: -155px;
+    margin-left: 40px;
+    width: 155px;
+}
+/*.light{*/
+    /*display: flex;*/
+/*}*/
+/*.light p{*/
+    /*order: 1;*/
+/*}*/
 
 .ipad:before{
     top: 30px;
