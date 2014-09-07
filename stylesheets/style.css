@@ -605,43 +605,41 @@ header{
 .description{
     display: none;
 }
-    .app-scary-histories .tease:last-child{
-        order:3;
-        display: block;
-        text-align: center;
-    
-        margin-top: 0px;
-        margin-bottom: 30px;
+.app-scary-histories .tease:last-child{
+    order:3;
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
-    .app-scary-histories .tease:nth-child(3){
-        display: none;
-    }
-    .app-scary-histories{
-        margin: 20px auto;
-        width: 100%;
-        height: 300px;
-        background-position: 180px 0px;
-    
-        background-size: 70px;
+.app-scary-histories .tease:nth-child(3){
+    display: none;
 }
-    .app-scary-histories .accessibility{
-        order:1;
-        margin-top: 77px;
-        margin-bottom: 7px;
-    }
-    .app-scary-histories .accessibility:before,
-    .app-scary-histories .accessibility:after{
-        width: 104px;
-    }
-    .app-scary-histories h1{
-        order:2;
-        width: 460px;
-        margin-left: 10px;
-        font-size: 36px;
-        color: #d0a22b;
-        text-align: center;
-        /* margin-left: 150px; */
-    }
+.app-scary-histories{
+    margin: 20px auto;
+    width: 100%;
+    height: 300px;
+    background-position: 180px 0px;
+    background-size: 70px;
+}
+.app-scary-histories .accessibility{
+    order:1;
+    margin-top: 77px;
+    margin-bottom: 7px;
+}
+.app-scary-histories .accessibility:before,
+.app-scary-histories .accessibility:after{
+    width: 104px;
+}
+.app-scary-histories h1{
+    order:2;
+    width: 460px;
+    margin-left: 10px;
+    font-size: 36px;
+    color: #d0a22b;
+    text-align: center;
+    /* margin-left: 150px; */
+}
 
 .content-wrapper{
     height: 1600px;
@@ -649,11 +647,10 @@ header{
 .screens{
     height: 510px;
     margin-left: 90px;
-
 }
-    .ipad{
-        display: none;
-    }
+.ipad{
+    display: none;
+}
 
 .iphone{
     margin: 0;
@@ -666,12 +663,12 @@ nav{
 .nav-item:nth-child(3){
     display: none;
 }
-    .nav-item h2{
-        font-size: 30px;
-    }
-    .nav-item a{
-        font-size: 18px;
-    }
+.nav-item h2{
+    font-size: 30px;
+}
+.nav-item a{
+    font-size: 18px;
+}
 footer{
     height: 350px;
     display: flex;
@@ -690,38 +687,38 @@ footer{
 
 @media all and (min-width: 320px)and (max-width:479px){
 
-        header,
-        .content-wrapper,
-        footer{
-            width: 296px;
-        }
-    .logo{
-        width: 65px;
-        height: 65px;
-        background-image: url("../assets/images/catLogo.png");
-        background-repeat: no-repeat;
-        background-position: 8px 7px;
-        background-size: 50px;
-    }
-    .soc-networks-wrapper li{
-        width: 45px;
-        height: 45px;
-        margin: 0;
-        padding: 0;
-    }
-    .soc-networks-wrapper{
-        width: 200px;
-        margin-top: 7px;
-        padding: 0;
-        justify-content: space-between;
-    }
-    .ipad{
-        display: none;
-    }
+header,
+.content-wrapper,
+footer{
+    width: 296px;
+}
+.logo{
+    width: 65px;
+    height: 65px;
+    background-image: url("../assets/images/catLogo.png");
+    background-repeat: no-repeat;
+    background-position: 8px 7px;
+    background-size: 50px;
+}
+.soc-networks-wrapper li{
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+}
+.soc-networks-wrapper{
+    width: 200px;
+    margin-top: 7px;
+    padding: 0;
+    justify-content: space-between;
+}
+.ipad{
+    display: none;
+}
 
 
 
-    }
+}
 
 
 
