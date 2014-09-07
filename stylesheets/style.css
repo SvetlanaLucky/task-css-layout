@@ -692,6 +692,11 @@ header,
 footer{
     width: 296px;
 }
+.app-scary-histories{
+    margin: 35px 0 0 0;
+    width: 100%;
+}
+
 .logo{
     width: 65px;
     height: 65px;
@@ -716,10 +721,53 @@ footer{
     display: none;
 }
 
-
-
+header{
+    height: 370px;
+    background: -webkit-radial-gradient(95% 92%,#646568 16px, #181818 550px);
 }
 
+
+
+    .app-scary-histories h1{
+        /*order:2;*/
+        width: 460px;
+        margin-left: 10px;
+        font-size: 36px;
+        color: #d0a22b;
+        /*text-align: center;*/
+         
+        margin-left: 95px;
+    }
+
+
+    .app-scary-histories .accessibility{
+        /*order:1;*/
+        /*margin-top: 77px;*/
+        /*margin-bottom: 7px;*/
+        font-size: 10px;
+    }
+
+
+    nav{
+        width: 280px;
+        height: 900px;
+        margin-bottom: 20px;
+    }
+    .nav-item:nth-child(3){
+        display: none;
+    }
+    .nav-item h2{
+        font-size: 25px;
+    }
+    .nav-item a{
+        font-size: 18px;
+    }
+
+    .description{
+        display: none;
+    }
+
+}
 
 
 }
